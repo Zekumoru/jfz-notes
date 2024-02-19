@@ -34,7 +34,6 @@ For example, the past tense of the verb `wait` in Japanese is `matta`, if you do
 
 These are the list of words in this chapter. They're not mandatory but helpful to build your vocabulary faster.
 
-
 | #  | Japanese  | English                  |
 | -- | --------- | ------------------------ |
 | 1  | Akai      | Red                      |
