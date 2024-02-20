@@ -66,28 +66,28 @@ As with any language, there are _"grammatically correct"_ and _"culturally corre
 
 Compilation of new words/phrases this lesson.
 
-| #  | Japanese                       | English                            | Notes                                                         |
-| -- | ------------------------------ | ---------------------------------- | ------------------------------------------------------------- |
-| 1  | Hajimemashite                  | Nice to meet you. / How do you do? |                                                               |
-| 2  | ____ to moushimasu             | I am ____.                         |                                                               |
-| 3  | Yoroshiku onegai shimasu       | Best regards. / I look             | forward to working with you.                                  |
-| 4  | Nansai desu ka                 | How old are you?                   |                                                               |
-| 5  | ____ sai desu                  | I am ____ years old.               |                                                               |
-| 6  | sai                            | age                                |                                                               |
-| 7  | issai                          | 1 year old                         |                                                               |
-| 8  | hassai                         | 8 years old                        |                                                               |
-| 9  | jussai                         | 10 years old                       |                                                               |
-| 10 | hatachi                        | 20 years old                       |                                                               |
-| 11 | hyakkusai                      | 100 years old                      |                                                               |
-| 12 | Nansai ni miemasu ka           | How old do I look?                 |                                                               |
-| 13 | ____ sai ni miemasu            | You look ____ years old.           |                                                               |
-| 14 | (O)namae wa nan desu ka        | What's your name?                  |                                                               |
-| 15 | Watashi no namae wa ____ desu. | My name is ____.                   |                                                               |
-| 16 | yoroshiku                      |                                    | can mean anything depending on context                        |
-| 17 | onegai                         | please                             |                                                               |
-| 18 | suru                           | to do                              | from conjugated "shimasu"                                     |
-| 19 | nani / nan                     | what                               |                                                               |
-| 20 | ka                             | particle to formulate a question   | If you remember, it also means "mosquito"                     |
-| 21 | desu                           | to be                              | it's a copula meaning it doesn't have a root form like "suru" |
-| 22 | mieru                          | to appear / to look like           | from conjugated "miemasu"                                     |
-| 23 | namae                          | name                               | the "o" in "onamae" is a honorific prefix                     |
+| #  | Japanese                       | English                                             | Notes                                                         |
+| -- | ------------------------------ | --------------------------------------------------- | ------------------------------------------------------------- |
+| 1  | Hajimemashite                  | Nice to meet you. / How do you do?                  |                                                               |
+| 2  | ____ to moushimasu             | I am ____.                                          |                                                               |
+| 3  | Yoroshiku onegai shimasu       | Best regards. / I look forward to working with you. |                                                               |
+| 4  | Nansai desu ka                 | How old are you?                                    |                                                               |
+| 5  | ____ sai desu                  | I am ____ years old.                                |                                                               |
+| 6  | sai                            | age                                                 |                                                               |
+| 7  | issai                          | 1 year old                                          |                                                               |
+| 8  | hassai                         | 8 years old                                         |                                                               |
+| 9  | jussai                         | 10 years old                                        |                                                               |
+| 10 | hatachi                        | 20 years old                                        |                                                               |
+| 11 | hyakkusai                      | 100 years old                                       |                                                               |
+| 12 | Nansai ni miemasu ka           | How old do I look?                                  |                                                               |
+| 13 | ____ sai ni miemasu            | You look ____ years old.                            |                                                               |
+| 14 | (O)namae wa nan desu ka        | What's your name?                                   |                                                               |
+| 15 | Watashi no namae wa ____ desu. | My name is ____.                                    |                                                               |
+| 16 | yoroshiku                      |                                                     | can mean anything depending on context                        |
+| 17 | onegai                         | please                                              |                                                               |
+| 18 | suru                           | to do                                               | from conjugated "shimasu"                                     |
+| 19 | nani / nan                     | what                                                |                                                               |
+| 20 | ka                             | particle to formulate a question                    | If you remember, it also means "mosquito"                     |
+| 21 | desu                           | to be                                               | it's a copula meaning it doesn't have a root form like "suru" |
+| 22 | mieru                          | to appear / to look like                            | from conjugated "miemasu"                                     |
+| 23 | namae                          | name                                                | the "o" in "onamae" is a honorific prefix                     |
