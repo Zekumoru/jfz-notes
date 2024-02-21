@@ -1,6 +1,6 @@
 # Pre-Lesson B
 
-Day 1 - February 20, 2024
+Day 2 - February 20, 2024
 
 ## Impressions
 
