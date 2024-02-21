@@ -33,6 +33,13 @@ Though it could be awkward to ask for someone's age in a first meeting, knowing 
 
 The word `sai` literally means _"years old"_. It must always be appended after the number of your age.
 
+There's another natural way of asking someone's age and responding to it. (Thanks to Macha for pointing this out!)
+
+| Ro-maji         | English          | Notes                                 |
+| --------------- | ---------------- | ------------------------------------- |
+| Oikutsu desu ka | How old are you? | Or literally "How many/much are you?" |
+| ____ desu       | I am ____.       |                                       |
+
 As usual, there are _irregulars_ and versions of the number which must be used when telling your age. The chart below will show those to you. For other ages, they obey the same rules of saying the number of your age plus `sai`.
 
 | Ro-maji   | English       | Notes                         |
@@ -91,3 +98,4 @@ Compilation of new words/phrases this lesson.
 | 21 | desu                           | to be                                               | it's a copula meaning it doesn't have a root form like "suru" |
 | 22 | mieru                          | to appear / to look like                            | from conjugated "miemasu"                                     |
 | 23 | namae                          | name                                                | the "o" in "onamae" is a honorific prefix                     |
+| 24 | ikutsu                         | How old are you?                                    | Or literally "How much/many are you?"                         |
