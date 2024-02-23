@@ -1,0 +1,16 @@
+{
+  "name": "jfz-notes",
+  "version": "1.0.0",
+  "description": "Notes for the JFZ books.",
+  "repository": "git@github.com:Zekumoru/jfz-notes.git",
+  "author": "Zekumoru Dragonhart <57686690+Zekumoru@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "nodemon": "^3.1.0"
+  }
+}
