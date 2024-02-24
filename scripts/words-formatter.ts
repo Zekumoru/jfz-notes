@@ -1,4 +1,25 @@
-// I'm deliberately not using promises so it's just a simple program... I hope.
+/**
+ * Words formatter
+ *
+ * @note I'm deliberately not using promises so it's just a
+ *       simple program... I hope.
+ *
+ * @options Currently, there's only one option available.
+ *
+ *   format: 'progressive' | 'full'
+ *     This is shown on the output syntax sample below.
+ *
+ * Output syntax:
+ * Full format:
+ *   1. **何**
+ *   - Kana: _**これ**_
+ *   - Progressive: _**kore**_
+ *   - English; _**this one**_
+ *
+ * Progressive format:
+ *   1. _**kore**_
+ *   - English; **this one**
+ */
 import fs from 'fs';
 import path from 'path';
 
@@ -61,18 +82,6 @@ lines.forEach((line, index) => {
     console.log(`Could not process line: ${line}`);
     return;
   }
-
-  /**
-   * Output syntax:
-   * Full format:
-   *   1. **何**
-   *   - Kana: _**これ**_
-   *   - Progressive: _**kore**_
-   *   - English; _**this one**_
-   * Progressive format:
-   *   1. _**kore**_
-   *   - English; **this one**
-   */
 
   // write first row (header)
   writeToFile(
