@@ -1,8 +1,9 @@
 // I'm deliberately not using promises so it's just a simple program... I hope.
 import fs from 'fs';
+import path from 'path';
 
-const inFilename = 'input.temp.txt';
-const outFilename = 'output.temp.txt';
+const inFilename = path.join(__dirname, 'input.temp.txt');
+const outFilename = path.join(__dirname, 'output.temp.txt');
 
 const writeToFile = (data: string) => {
   fs.writeFileSync(outFilename, data + '\n', {
@@ -21,45 +22,74 @@ const lines = fs
   .split('\n')
   .filter(Boolean);
 
-lines.forEach((line) => {
+// get metadata / options
+const options: {
+  format: 'progressive' | 'full';
+} = {
+  format: 'full',
+};
+
+lines[0].split(/,\s/).forEach((option) => {
+  const [name, value] = option.split(/:\s?/).map((t) => t.trim());
+  if (!name || !value) {
+    console.log(`Invalid option: ${option}`);
+    return;
+  }
+
+  if (name === 'format' && value === 'progressive')
+    options.format = 'progressive';
+});
+
+// process all entries
+lines.forEach((line, index) => {
+  // skip metadata
+  if (index == 0) return;
+
   // Input syntax: <english> <progressive> <kana> <kanji>
-  const [english, romaji, kana, kanji] = line.split(/\s/);
+  const matches = line.match(/(".*"|[^\s　]*)/gi);
+  if (!matches || line.trim() === '') return;
+  const [english, progressive, kana, kanji] = [...matches]
+    .filter(Boolean)
+    .map((s) => s.replace(/"/gi, ''));
 
-  // Output syntax:
-  // | 何       |      |
-  // | ------- | ---- |
-  // | Kana    | なに   |
-  // | Progressive | nani |
-  // | English | what |
+  // check if there are inputs to process
+  if (
+    !english ||
+    !progressive ||
+    (options.format === 'full' && (!kana || !kanji))
+  ) {
+    console.log(`Could not process line: ${line}`);
+    return;
+  }
 
-  // get first column length
-  let firstColLength = 'Progressive'.length;
-  if (kanji.length > firstColLength) firstColLength = kanji.length;
-
-  // get second column length
-  let secondColLength = english.length;
-  if (romaji.length > secondColLength) secondColLength = romaji.length;
-  if (kana.length > secondColLength) secondColLength = kana.length;
+  /**
+   * Output syntax:
+   * Full format:
+   *   1. **何**
+   *   - Kana: _**これ**_
+   *   - Progressive: _**kore**_
+   *   - English; _**this one**_
+   * Progressive format:
+   *   1. _**kore**_
+   *   - English; **this one**
+   */
 
   // write first row (header)
   writeToFile(
-    `| ${kanji.padEnd(firstColLength)} | ${' '.repeat(secondColLength)} |`
-  );
-
-  // write divider
-  writeToFile(
-    `| ${'-'.repeat(firstColLength)} | ${'-'.repeat(secondColLength)} |`
+    `${index}. **${options.format === 'full' ? kanji : progressive}**`
   );
 
   // write out content
-  [
-    ['Kana', kana],
-    ['Progressive', romaji],
-    ['English', english],
-  ].forEach(([label, token]) =>
-    writeToFile(
-      `| ${label.padEnd(firstColLength)} | ${token.padEnd(secondColLength)} |`
-    )
+  const content =
+    options.format === 'full'
+      ? [
+          ['Kana', kana],
+          ['Progressive', progressive],
+          ['English', english],
+        ]
+      : [['English', english]];
+  content.forEach(([label, token]) =>
+    writeToFile(`- ${label}: _**${token}**_`)
   );
 
   // newline

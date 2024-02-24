@@ -5,6 +5,10 @@
   "repository": "git@github.com:Zekumoru/jfz-notes.git",
   "author": "Zekumoru Dragonhart <57686690+Zekumoru@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "convert": "ts-node ./scripts/words-formatter.ts",
+    "dev": "nodemon ./scripts/words-formatter.ts"
+  },
   "dependencies": {
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
