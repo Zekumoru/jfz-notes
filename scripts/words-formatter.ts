@@ -46,7 +46,7 @@ lines.forEach((line, index) => {
   if (index == 0) return;
 
   // Input syntax: <english> <progressive> <kana> <kanji>
-  const matches = line.match(/(".*"|[^\s　]*)/gi);
+  const matches = line.match(/("[^"]*"|[^\s　]*)/gi);
   if (!matches || line.trim() === '') return;
   const [english, progressive, kana, kanji] = [...matches]
     .filter(Boolean)
