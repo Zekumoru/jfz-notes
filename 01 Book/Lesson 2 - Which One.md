@@ -1,5 +1,7 @@
 # Lesson 2 - Which One?
 
+Day 6 - February 24, 2024
+
 ## 1 | About This Lesson このレッスンについて
 
 Learn how to work with a topic in simple sentences and learn the topic marker `wa`.
