@@ -61,17 +61,25 @@ lines[0].split(/,\s/).forEach((option) => {
     options.format = 'progressive';
 });
 
+const processLine = (line: string) => {
+  const matches = line.match(/("[^"]*"|[^\s　]*)/gi);
+  if (!matches || line.trim() === '') return [null, null, null, null] as const;
+  const [progressive, kanaOrEnglish, kanji, english] = [...matches]
+    .filter(Boolean)
+    .map((s) => s.replace(/"/gi, ''));
+  if (options.format === 'progressive')
+    return [progressive, null, null, kanaOrEnglish] as const;
+  return [progressive, kanaOrEnglish, kanji, english] as const;
+};
+
 // process all entries
 lines.forEach((line, index) => {
   // skip metadata
   if (index == 0) return;
 
-  // Input syntax: <english> <progressive> <kana> <kanji>
-  const matches = line.match(/("[^"]*"|[^\s　]*)/gi);
-  if (!matches || line.trim() === '') return;
-  const [english, progressive, kana, kanji] = [...matches]
-    .filter(Boolean)
-    .map((s) => s.replace(/"/gi, ''));
+  // Input syntax: <progressive> <kana> <kanji> <english>
+  const [progressive, kana, kanji, english] = processLine(line);
+  if (progressive === null) return;
 
   // check if there are inputs to process
   if (
