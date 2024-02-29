@@ -1,6 +1,6 @@
 # Hiragana たちつてとだぢづでど
 
-Day 11 - February 29, 2024 // REMEMBER CHECK LAST DATA CALCULATE
+Day 11 - February 29, 2024
 
 ## 1 | Introduction どうにゅう
 
