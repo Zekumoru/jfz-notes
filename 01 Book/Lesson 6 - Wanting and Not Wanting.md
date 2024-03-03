@@ -70,29 +70,41 @@ Learn how to say you want or don't want something, and how to conjugate adjectiv
 
 ## 4 | New Adjectives あたらしいけいようし
 
-1. **あたraしい**
+1. **新しい**
 
-- English: _**あたらしい**_
+- Kana: _**あたらしい**_
+- Progressive: _**あたraしい**_
+- English: _**new**_
 
-2. **furuい**
+2. **古い**
 
-- English: _**ふるい**_
+- Kana: _**ふるい**_
+- Progressive: _**furuい**_
+- English: _**old**_
 
-3. **あつい**
+3. **暑い**
 
-- English: _**あつい**_
+- Kana: _**あつい**_
+- Progressive: _**あつい**_
+- English: _**hot**_
 
-4. **さmuい**
+4. **寒い**
 
-- English: _**さむい**_
+- Kana: _**さむい**_
+- Progressive: _**さmuい**_
+- English: _**cold**_
 
-5. **つmeたい**
+5. **冷たい**
 
-- English: _**つめたい**_
+- Kana: _**つめたい**_
+- Progressive: _**つmeたい**_
+- English: _**cold to the touch**_
 
-6. **ぬruい**
+6. **温い**
 
-- English: _**ぬるい**_
+- Kana: _**ぬるい**_
+- Progressive: _**ぬruい**_
+- English: _**warm, luke warm**_
 
 ## 5 | Culture Clip カルチャークリップ
 
@@ -144,7 +156,7 @@ Examples
 2.
 
 - chaいroい -> brown
-- chaいro**§§**くない** -> **not** brown
+- chaいro**くない** -> **not** brown
 
 ### 6.3 | Wanting and not wanting
 
