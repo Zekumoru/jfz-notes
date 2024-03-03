@@ -18,9 +18,9 @@ Follow the strokes on the image below to learn the **n + vowels** hiragana.
 
 1. **バスケットボール**
 
-- Kana: _**booru**_
-- Progressive: _**basuketto**_
-- English: _**バスケットボール**_
+- Kana: _**basuketto booru**_
+- Progressive: _**バスケットボール**_
+- English: _**basketball**_
 
 2. **ギャンブル**
 
