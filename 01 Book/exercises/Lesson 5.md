@@ -104,7 +104,7 @@ Write the following words **5 times**.
 4. ねあげ (a rise in price)
 5. なつかしい (dear, longed for)
 
-## 8 | Knowledge check
+## 7 | Knowledge check
 
 Translate the following sentences in English. You don't have to write them. If you're unsure what they mean then review the lesson before moving forward.
 
