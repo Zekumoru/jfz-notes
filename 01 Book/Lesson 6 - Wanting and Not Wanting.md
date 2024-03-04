@@ -215,7 +215,7 @@ Also, now you can count up to **99,999,999**! Which is of course... Breaths in..
 
 That was definitely a lot to take in especially with the introduction of _man_ to say 10 thousand. But anyways...
 
-In this lesson, we learned a new phrase to say we're fine or _"No thanks."_ which is **"げっこうです。"**
+In this lesson, we learned a new phrase to say we're fine or _"No thanks."_ which is **"けっこうです。"**
 
 Afterward, we got a glimpse to another culture clip about _くn_ and _chan_ which is appended to someone's first name or last name to show affection. And learned it's only used with people we have the same status or lower and **never** higher.
 
