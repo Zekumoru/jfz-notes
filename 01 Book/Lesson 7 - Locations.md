@@ -94,6 +94,13 @@ Learn how to say where an item is and when to use は (wa) or が.
 
 If you remember previously, to make an い-adjective negative, we drop the い and replace it with くない, however, いい is an exception. Both いい and よい mean _"good"_ or _"nice"_ but the negative of いい is **yoくない** and NOT いくない. You'll sometimes hear people say いくない but it is not considered standard Japanese therefore use _yoくない_ to say _"not good"_.
 
+Examples
+
+1. **いい**ですか。 -> Is it **good**?
+
+- はい、**いい**です。 -> Yes, it's **good**.
+- いいえ、**yoくない**です。 -> No, it's **not good**.
+
 ## 5 | New Phrases あたらしいかいわ
 
 1. **おなかがすいていmaす。**
@@ -176,14 +183,60 @@ Examples
 1. ねこ**が**すきです。 -> ねこすきです。 _(I like cats)_
 2. おかあさn**は**なnさいですか。 -> おかあさnなnさいですか。 _(How old is your mother?)_
 
-## 7 | Summary ようやく
+## 7 | Sentences Examples
+
+In this section, we'll see some examples on how to use the location words: どこ, ここ, そこ, and あそこ.
+
+Examples
+
+1. **どこ**ですか。 -> **Where** is it?
+
+- **ここ**です。 -> It's **here**.
+- **そこ**です。 -> It's **there**.
+- そとです。 -> It's outside.
+- なかです。 -> It's inside.
+
+2. **ここ**ですか。 -> Is it **here**?
+
+- はい、**ここ**です。 -> Yes, it's **here**.
+- いいえ、**ここ**jaないです。 -> No, it's not **here**.
+- いいえ、**あそこ**です。 -> No, it's **over there**.
+
+3. **あそこ**ですか。 -> Is it **over there**?
+
+- はい、**ここ**です。 -> Yes, it's **here**.
+- いいえ、**そこ**です。 -> No, it's **there**.
+- いいえ、**あそこ**jaないです。 -> No, it's not **over there**.
+
+4. いぬは**どこ**ですか。 -> **Where** is the dog?
+
+- いぬは**あそこ**です。 -> The dog is **over there**.
+- いぬはそとです。 -> The dog is outside.
+- いぬはなかjaないです。 -> The dog isn't inside.
+
+5. **どこ**がいいですか。 -> **What** place is good?
+
+- **ここ**がいいです。 -> **This** place is good.
+- **そこ**がいいです。 -> **That** place is good.
+
+> Though どこ means _where_, in this context it could mean _what_ or _which_.
+
+6. おいしいresutoranは**どこ**ですか。 -> **Where** is a good(-tasting) restaurant?
+
+- ごmenなさい、わかrimaせん。 -> I'm sorry, I don't know.
+- おいしいresutoranは**あそこ**です。 -> A good restaurant is **over there**.
+- **あそこ**がいいです。 -> That place **over there** is good.
+
+## 8 | Summary ようやく
 
 In this lesson, we learned that the negative of いい is not いくない but **よくない**. Then we learned how to use _でmo_ to say _"but"_ in Japanese.
 
-Finally we learned 5 rules of using は and が:
+We also learned 5 rules of using は and が:
 
 1. Always use が after a question word.
 2. は is used for comparison and emphasis.
 3. When は and が are both in the same sentence, は marks the topic and が marks the object.
 4. は should be used in new topics/conversations.
 5. は and が are often dropped in casual conversations.
+
+Finally we've seen some examples on how to use どこ, ここ, そこ, and あそこ location words.
