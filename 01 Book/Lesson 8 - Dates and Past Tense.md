@@ -84,11 +84,11 @@ Learn the days of the month and the months. Also how to use でした.
 - Progressive: _**purezento**_
 - English: _**present, gift**_
 
-11. **ゴルデンウィーク**
+11. **ゴールデンウィーク**
 
-- Kana: _**wi-ku**_
-- Progressive: _**goruden**_
-- English: _**ゴルデンウィーク**_
+- Kana: _**ゴールデンウィーク**_
+- Progressive: _**go-ruden wi-ku**_
+- English: _**Golden Week**_
 
 12. **憲法記念日**
 
