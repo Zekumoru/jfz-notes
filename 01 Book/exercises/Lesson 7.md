@@ -2,7 +2,7 @@
 
 ## 1 | Word practice
 
-Read the sentences below. You will need them when answering the reading comprehension questions later.
+Replace the words inside the parenthesis to their corresponding hiragana.
 
 1. (mo)ri [forest]
 2. (mo)(mi)じ [maple leaf]
