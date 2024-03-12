@@ -234,7 +234,7 @@ You can avoid this by using も instead of は: _"Kyoう **も** きれいです
 
 ### 4.6 | Sizes
 
-Most commonly in Japan, you can use  to describe the size of clothing or food. However, remember to turn it into a の-adjective first before you can say, for example, _"large cola"_ which is _"eru の ko-ra"_.
+Most commonly in Japan, you can use _esu_ (S / small), _emu_ (M / medium), and _eru_ (L / large) to describe the size of clothing or food. However, remember to turn it into a の-adjective first before you can say, for example, _"large cola"_ which is _"eru の ko-ra"_.
 
 Examples
 
