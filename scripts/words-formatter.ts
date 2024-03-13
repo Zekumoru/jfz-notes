@@ -12,13 +12,19 @@
  * Output syntax:
  * Full format:
  *   1. **何**
- *   - Kana: _**これ**_
- *   - Progressive: _**kore**_
- *   - English; _**this one**_
+ *   - Kana: _**なに**_
+ *   - Progressive: _**nani**_
+ *   - English; _**what**_
  *
  * Progressive format:
- *   1. _**kore**_
- *   - English; **this one**
+ *   1. _**nani**_
+ *   - English; **what**
+ *
+ * Hiragana format:
+ *   1. **何**
+ *   - Progressive: _**nani**_
+ *   - English; _**what**_
+ *
  */
 import fs from 'fs';
 import path from 'path';
@@ -45,7 +51,7 @@ const lines = fs
 
 // get metadata / options
 const options: {
-  format: 'progressive' | 'full';
+  format: 'progressive' | 'full' | 'hiragana';
 } = {
   format: 'full',
 };
@@ -59,17 +65,27 @@ lines[0].split(/,\s/).forEach((option) => {
 
   if (name === 'format' && value === 'progressive')
     options.format = 'progressive';
+
+  if (name === 'format' && value === 'hiragana') options.format = 'hiragana';
 });
 
 const processLine = (line: string) => {
   const matches = line.match(/("[^"]*"|[^\s　]*)/gi);
   if (!matches || line.trim() === '') return [null, null, null, null] as const;
-  const [progressive, kanaOrEnglish, kanji, english] = [...matches]
-    .filter(Boolean)
-    .map((s) => s.replace(/"/gi, ''));
-  if (options.format === 'progressive')
-    return [progressive, null, null, kanaOrEnglish] as const;
-  return [progressive, kanaOrEnglish, kanji, english] as const;
+
+  const tokens = [...matches].filter(Boolean).map((s) => s.replace(/"/gi, ''));
+
+  if (options.format === 'progressive') {
+    const [progressive, english] = tokens;
+    return [progressive, null, null, english] as const;
+  }
+  if (options.format === 'hiragana') {
+    const [progressive, kanji, english] = tokens;
+    return [progressive, null, kanji, english] as const;
+  }
+
+  const [progressive, kana, kanji, english] = tokens;
+  return [progressive, kana, kanji, english] as const;
 };
 
 // process all entries
@@ -85,6 +101,7 @@ lines.forEach((line, index) => {
   if (
     !english ||
     !progressive ||
+    (options.format === 'hiragana' && !kanji) ||
     (options.format === 'full' && (!kana || !kanji))
   ) {
     console.log(`Could not process line: ${line}`);
@@ -93,24 +110,32 @@ lines.forEach((line, index) => {
 
   // write first row (header)
   writeToFile(
-    `${index}. **${options.format === 'full' ? kanji : progressive}**`
+    `${index}. **${
+      ['full', 'hiragana'].includes(options.format) ? kanji : progressive
+    }**\n`
   );
 
   // write out content
-  const content =
-    options.format === 'full'
-      ? [
-          ['Kana', kana],
-          ['Progressive', progressive],
-          ['English', english],
-        ]
-      : [['English', english]];
+  const content = (() => {
+    if (options.format === 'full')
+      return [
+        ['Kana', kana],
+        ['Progressive', progressive],
+        ['English', english],
+      ];
+    if (options.format === 'hiragana')
+      return [
+        ['Progressive', progressive],
+        ['English', english],
+      ];
+    return [['English', english]];
+  })();
   content.forEach(([label, token]) =>
     writeToFile(`- ${label}: _**${token}**_`)
   );
 
   // newline
-  writeToFile('');
+  if (index != lines.length - 1) writeToFile('');
 });
 
 console.log('Conversion complete!');
