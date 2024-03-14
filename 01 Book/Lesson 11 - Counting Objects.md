@@ -16,6 +16,8 @@ In this lesson, four of the most common counters in Japanese will be taught. (Me
 
 ### 3.1 | The general or abstract objects counter: いくつ
 
+![Objects examples for いくつ counter](images/l11-ikutsu.jpg)
+
 The **いくつ** counter, a.k.a. **～つ** counter, is the most common and versatile counter. It can be used to count any physical object as well as any abstract objects (e.g. _"one idea"_, _"two problems"_, etc.). It **cannot** be used to count living beings like people or animals. And it is also **not** typical used with bigger objects such as an airplane.
 
 > It's really ～つ counter because いくつ is used when you're asking _"How many?"_.
@@ -38,6 +40,8 @@ Below shows the word counter for each number.
 For numbers above 10, the いくつ counter follows the なんこ counter pattern.
 
 ### 3.2 | The other general counter or the round/small objects counter: なんこ
+
+![Objects examples for なんこ counter](images/l11-nanko.jpg)
 
 The **なんこ** counter, a.k.a. **～こ** counter, is another general counter second to いくつ. It is mostly used for counting round objects or small objects such as fruits, balls, dice, thumbtacks, etc. Also the object doesn't have to be perfectly round to use this counter.
 
@@ -79,6 +83,8 @@ And for the one thousand.
 > I'm not sure what is for the 10K counter since looking it up... Simply put, まんこ can mean 10K but can also mean something else _degenerate_.
 
 ### 3.3 | The long objects or cylindrical objects counter: なんぼん
+
+![Objects examples for なんぼん counter](images/l11-nanbon.jpg)
 
 The **なんぼん** counter, a.k.a. **～ぼん** counter, is used to count objects that are either long or cylindrical (or both!). Examples are bottles of cola, pens, legs, and even flowers (due to their stems). It can also be used to count objects that aren't seemingly long or cylindrical like video cassettes (because if you make it stand, they're long), teeth, etc.
 
@@ -124,6 +130,8 @@ And for the one thousand.
 
 ### 3.4 | The thin objects or flat objects counter: なんまい
 
+![Objects examples for なんまい counter](images/l11-nanmai.jpg)
+
 The **なんまい** counter, a.k.a. **～まい** counter, is used to count objects that are either thin or flat (or both!). Examples are papers, tickets, plates, etc. However, it **cannot** be used to count books, magazines, etc. In their cases, the _published materials counter さつ_ is used (which will be taught in later lessons).
 
 Below shows the word counter for each number.
@@ -163,7 +171,7 @@ And for the one thousand.
 
 Below is a picture of all the mentioned counters above in a single table.
 
-![Counters: いくつ、なんこ、なんぼん、なんまい]()
+![Counters: いくつ、なんこ、なんぼん、なんまい](images/l11-counters.jpg)
 
 > Note that the 16 and 18 in なんまい have typos.
 
