@@ -175,9 +175,71 @@ Below is a picture of all the mentioned counters above in a single table.
 
 > Note that the 16 and 18 in なんまい have typos.
 
-## 4 | Grammar ぶんぽう
+## 4 | New Words あたらしいことば (Vocabulary section)
 
-### 4.1 | The counters and particles
+1. **いくつ**
+
+- Kana: _**いくつ**_
+- Progressive: _**いくつ**_
+- English: _**How many things?**_
+
+2. **何個**
+
+- Kana: _**なんこ**_
+- Progressive: _**なんこ**_
+- English: _**How many round objects?**_
+
+3. **何本**
+
+- Kana: _**なんぼん**_
+- Progressive: _**なんぼん**_
+- English: _**How many cylindrical objects?**_
+
+4. **何枚**
+
+- Kana: _**なんまい**_
+- Progressive: _**なんまい**_
+- English: _**How many thin/flat objects?**_
+
+5. **紙**
+
+- Kana: _**かみ**_
+- Progressive: _**かみ**_
+- English: _**paper**_
+
+6. **チケット**
+
+- Kana: _**チケッチ**_
+- Progressive: _**chiketto**_
+- English: _**tickets**_
+
+7. **花**
+
+- Kana: _**はな**_
+- Progressive: _**はな**_
+- English: _**flowers**_
+
+8. **旗**
+
+- Kana: _**はた**_
+- Progressive: _**はた**_
+- English: _**flag**_
+
+9. **星**
+
+- Kana: _**ほし**_
+- Progressive: _**ほし**_
+- English: _**star (in the sky)**_
+
+10. **カレンダー**
+
+- Kana: _**カレンダー**_
+- Progressive: _**karenda-**_
+- English: _**calendar**_
+
+## 5 | Grammar ぶんぽう
+
+### 5.1 | The counters and particles
 
 Particles are **not** necessary after the counters. If you remember last lesson, to ask for something you'd add the を particle after the object but if it is a counter then you don't put a particle.
 
@@ -207,7 +269,7 @@ Examples
 - Piza を にまい ください。 (Two slices of pizza, please.)
 - かみ を ごひゃくまい ください。 (Five hundred pieces of paper, please.)
 
-### 4.2 | あと
+### 5.2 | あと
 
 **あと** in English could mean _"more"_, _"else"_, _"in addition"_, or sometimes _"other"_. It is placed in front of numbered things. Also, the particle は can be added after it.
 
@@ -236,7 +298,7 @@ Examples
 - B: みず と supu-n を ください。 (Some water and spoon, please.)
 - A: はい、しょうしょう おまち ください。 (Please wait a few moments.)
 
-## 5 | Sentences Examples
+## 6 | Sentences Examples
 
 In this section, there will be more counter examples!
 
@@ -308,7 +370,7 @@ In this section, there will be more counter examples!
 - さんまい ほしいです。 (I want three.)
 - Piza は ほしくないです。 (I don't want any pizza.)
 
-## 6 | Conversations Examples
+## 7 | Conversations Examples
 
 1. **Conversation at a ticket booth for a concert**
 
@@ -324,7 +386,7 @@ In this section, there will be more counter examples!
 - **B**: なんぼん ですか。 (How many?)
 - **A**: にほん ください。 (Two, please.)
 
-## 7 | Summary ようやく
+## 8 | Summary ようやく
 
 Okay, this is another big fat lesson. Hopefully you're still alive because I literally died. Anyways, let's review what we learned today, don't we?
 
