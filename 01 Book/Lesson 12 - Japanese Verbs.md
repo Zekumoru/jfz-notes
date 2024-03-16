@@ -472,3 +472,20 @@ Afterwards we learned to turn a verb into a question using the **か particle** 
 5. **はなす (to speak)**
 
 Finally, we learned to use **じん (people)** and **ご (language)** to turn a country into a nationality and language respectively. And we saw a bunch of examples for today's lesson.
+
+## 8 | New Words and Expressions
+
+1. **今から**
+
+- Progressive: _**いまから**_
+- English: _**from now / from now on**_
+
+2. **何の？**
+
+- Progressive: _**なんの？**_
+- English: _**what? / which? / what kind of?**_
+
+3. **今日は暑いですね。**
+
+- Progressive: _**きょうはあついですね。**_
+- English: _**Today sure is hot.**_
