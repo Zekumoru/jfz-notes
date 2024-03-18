@@ -386,3 +386,15 @@ Q&A Examples
 
 - じゅうごさい から すきでした。 (I have liked it since I was fifteen years old.)
 - きょねん から すきでした。 (I have liked it since last year.)
+
+## 7 | Summary ようやく
+
+And we have finally reached the final lesson of the first book! Yay!
+
+In this lesson, we learned how to say the hour with **じ** and the minutes with **ふん/ぷん**. Remember that the minutes from the first 10 are irregular.
+
+We also learned to say AM and PM with **ごぜん** and **ごご** respectively. Then we learned how to say _"half past"_ with **はん**.
+
+Lastly of this book's grammar, we learned the **から** and **まで** particles. から means _"from"_ or _"since"_ while まで means _"until"_, _"up until"_, or _"as far as"_. If まで is used as a location particle then it marks the **final destination**.
+
+See you in book 2! (/^_^)/
