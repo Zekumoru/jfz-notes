@@ -1,6 +1,6 @@
 # Lesson 12 - Japanese Verbs
 
-Day 26 - March 15, 2024
+Day 26/27 - March 15-16, 2024
 
 ## 1 | About This Lesson このレッスンについて
 
