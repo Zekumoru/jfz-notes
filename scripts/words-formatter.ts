@@ -78,21 +78,60 @@ lines[0].split(/,\s/).forEach((option) => {
 
 const processLine = (line: string) => {
   const matches = line.match(/("[^"]*"|[^\s　]*)/gi);
-  if (!matches || line.trim() === '') return [null, null, null, null] as const;
+  if (!matches || line.trim() === '') return [];
+  return [...matches].filter(Boolean).map((s) => s.replace(/"/gi, ''));
+};
 
-  const tokens = [...matches].filter(Boolean).map((s) => s.replace(/"/gi, ''));
+const writeHeader = (index: number, token: string) => {
+  writeToFile(`${index}. **${token}**\n`);
+};
 
-  if (options.format === 'progressive') {
-    const [progressive, english] = tokens;
-    return [progressive, null, null, english] as const;
-  }
-  if (options.format === 'hiragana') {
-    const [progressive, kanji, english] = tokens;
-    return [progressive, null, kanji, english] as const;
-  }
+const writeRow = (label: string, token: string) => {
+  writeToFile(`- ${label}: _**${token}**_`);
+};
 
-  const [progressive, kana, kanji, english] = tokens;
-  return [progressive, kana, kanji, english] as const;
+const logLineError = (line: string, reason: string) => {
+  console.log(`Could not process line: ${line}`);
+  console.log(`Error: ${reason}`);
+  return -1;
+};
+
+const handlers: {
+  [key in FormatOption]: (
+    index: number,
+    line: string,
+    tokens: string[]
+  ) => number;
+} = {
+  full: (index, line, tokens) => {
+    if (tokens.length < 4) return logLineError(line, 'Missing tokens, need 4.');
+    writeHeader(index, tokens[0]);
+    writeRow('Kana', tokens[1]);
+    writeRow('Progressive', tokens[2]);
+    writeRow('English', tokens[3]);
+    return 0;
+  },
+  hiragana: (index, line, tokens) => {
+    if (tokens.length < 3) return logLineError(line, 'Missing tokens, need 3.');
+    writeHeader(index, tokens[0]);
+    writeRow('Progressive', tokens[1]);
+    writeRow('English', tokens[2]);
+    return 0;
+  },
+  progressive: (index, line, tokens) => {
+    if (tokens.length < 2) return logLineError(line, 'Missing tokens, need 2.');
+    writeHeader(index, tokens[0]);
+    writeRow('English', tokens[1]);
+    return 0;
+  },
+  verb: (index, line, tokens) => {
+    if (tokens.length < 4) return logLineError(line, 'Missing tokens, need 4.');
+    writeHeader(index, tokens[1]);
+    writeRow('Verb', tokens[0]);
+    writeRow('English', tokens[2]);
+    writeRow('Verb Type', tokens[3]);
+    return 0;
+  },
 };
 
 // process all entries
@@ -101,45 +140,19 @@ lines.forEach((line, index) => {
   if (index == 0) return;
 
   // Input syntax: <progressive> <kana> <kanji> <english>
-  const [progressive, kana, kanji, english] = processLine(line);
-  if (progressive === null) return;
+  const tokens = processLine(line);
+  if (!tokens.length) return;
 
-  // check if there are inputs to process
-  if (
-    !english ||
-    !progressive ||
-    (options.format === 'hiragana' && !kanji) ||
-    (options.format === 'full' && (!kana || !kanji))
-  ) {
-    console.log(`Could not process line: ${line}`);
-    return;
+  const handlerFn = handlers[options.format];
+
+  if (handlerFn === undefined) {
+    return logLineError(line, `Invalid format '${options.format}'`);
   }
 
-  // write first row (header)
-  writeToFile(
-    `${index}. **${
-      ['full', 'hiragana'].includes(options.format) ? kanji : progressive
-    }**\n`
-  );
-
-  // write out content
-  const content = (() => {
-    if (options.format === 'full')
-      return [
-        ['Kana', kana],
-        ['Progressive', progressive],
-        ['English', english],
-      ];
-    if (options.format === 'hiragana')
-      return [
-        ['Progressive', progressive],
-        ['English', english],
-      ];
-    return [['English', english]];
-  })();
-  content.forEach(([label, token]) =>
-    writeToFile(`- ${label}: _**${token}**_`)
-  );
+  if (handlerFn(index, line, tokens)) {
+    // if there's an error, return
+    return;
+  }
 
   // newline
   if (index != lines.length - 1) writeToFile('');
