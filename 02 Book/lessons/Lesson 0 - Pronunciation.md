@@ -88,7 +88,7 @@ Just like in the first book, these words should be memorized but it's not an obl
 
 4. **tisshu**
 
-- Progressive: _**チィッシュ**_
+- Progressive: _**ティッシュ**_
 - English: _**tissue**_
 
 5. **めんぼう**
