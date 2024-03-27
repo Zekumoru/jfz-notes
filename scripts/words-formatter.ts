@@ -49,9 +49,17 @@ const lines = fs
   .split('\n')
   .filter(Boolean);
 
+type FormatOption = 'progressive' | 'full' | 'hiragana' | 'verb';
+const FORMAT_OPTIONS: FormatOption[] = [
+  'progressive',
+  'full',
+  'hiragana',
+  'verb',
+];
+
 // get metadata / options
 const options: {
-  format: 'progressive' | 'full' | 'hiragana';
+  format: FormatOption;
 } = {
   format: 'full',
 };
@@ -63,10 +71,9 @@ lines[0].split(/,\s/).forEach((option) => {
     return;
   }
 
-  if (name === 'format' && value === 'progressive')
-    options.format = 'progressive';
-
-  if (name === 'format' && value === 'hiragana') options.format = 'hiragana';
+  if (name === 'format' && FORMAT_OPTIONS.includes(value as FormatOption)) {
+    options.format = value as FormatOption;
+  }
 });
 
 const processLine = (line: string) => {
