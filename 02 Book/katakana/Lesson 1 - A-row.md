@@ -1,4 +1,4 @@
-# Hiragana アイウエオ
+# Katakana アイウエオ
 
 Day 31 (Book 2 Day 2) - March 27, 2024
 
