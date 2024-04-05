@@ -1,4 +1,4 @@
-# Lesson 1 Exercises
+# Lesson 2 Exercises
 
 April 4, 2024
 
