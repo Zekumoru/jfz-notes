@@ -41,7 +41,7 @@ Follow the strokes below in the image to learn how to write the **G + vowels** k
 - Progressive: _**じょうぎ**_
 - English: _**ruler**_
 
-4. **鋏**
+4. **はさみ**
 
 - Progressive: _**はさみ**_
 - English: _**scissors**_
