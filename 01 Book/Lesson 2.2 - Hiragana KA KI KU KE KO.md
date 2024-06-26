@@ -144,7 +144,7 @@ You'll see that the words/phrases here are already been discussed or part of the
 
 - English: _**to write**_
 
-13. **いく**
+13. **いか**
 
 - English: _**squid**_
 
